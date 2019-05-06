@@ -15,3 +15,6 @@ my_collect(languages) do |language|
 end
 
 students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
+
+my_collect(students) do |student|
+  student.split(" ").first
