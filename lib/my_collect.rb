@@ -11,7 +11,7 @@ end
 languages = ['ruby', 'javascript', 'python', 'objective-c']
 
 my_collect(languages) do |language| 
-  new_collection << language.upcase
+  language.upcase
 end
 
 students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
